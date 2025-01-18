@@ -168,15 +168,15 @@ export default function ShopHeader() {
           {/* Left Side */}
           <div className="flex items-center gap-8">
             <button className="flex items-center gap-2 hover:text-[#B88E2F] transition-colors">
-              <Image className="w-5 h-5" src='/images/filter-icon.png' alt={''}/>
+              <Image className="w-5 h-5" src='/images/filter-icon.png' alt={''} width={100} height={100}/>
               <span className="font-medium">Filter</span>
             </button>
             <div className="flex items-center gap-2 border-l border-[#9F9F9F] pl-8">
               <button className="hover:text-[#B88E2F] transition-colors">
-              <Image className="w-5 h-5" src='/images/dots-icon.png' alt={''}/>
+              <Image className="w-5 h-5" src='/images/dots-icon.png' alt={''} width={100} height={100}/>
               </button>
               <button className="hover:text-[#B88E2F] transition-colors">
-              <Image className="w-5 h-5" src='/images/list-icon.png' alt={''}/>
+              <Image className="w-5 h-5" src='/images/list-icon.png' alt={''}width={100} height={100}/>
               </button>
             </div>
             <p className="text-[#9F9F9F] hidden md:block">
